@@ -1,0 +1,36 @@
+.Nav{
+    height: 5.5vh;
+    background-color: #041a49;
+    vertical-align: bottom;
+}
+.heading{
+    margin: 0;
+    color: white;
+    font-weight: 600;
+    padding-top: 1vh;
+    font-size: 1.5em;
+}
+.navigation{
+    height: 4vh;
+    margin-top: 1.8vh;
+}
+.navigation .link{
+
+    font-size: 1.3em;
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: #000000;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+.navigation .link:hover{
+    background-color: #645780;
+}
+.login-logo{
+    position: relative;
+    top: 0.4vh;
+    right: 0.2vh;
+}

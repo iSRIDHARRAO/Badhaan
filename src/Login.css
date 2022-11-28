@@ -1,0 +1,72 @@
+.Login{
+
+    box-shadow: 10px 10px 25px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.Main-Login{
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: center;
+
+}
+.login-heading{
+    padding: 0.8em 0.8em 0 0.8em;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-weight: 1000;
+
+}
+.username{
+
+ 
+
+    font-weight: 900;
+    font-size: 1.2em;
+    padding-top:1.3em;
+}
+.input{
+    border-radius: 10px;
+    width: 16vw;
+    height: 4vh;
+    border: 1px solid  black;
+    padding: 0px 0px 0px 10px;
+    font-size: 1.1em;
+    background-color: #041a49;
+    outline: rgb(155, 0, 0);
+    color: white;
+    margin-right: 4vw;
+    margin-left: 4vw;
+}
+.login-submit,.login-signup{
+    padding: 1vh 2vh 1vh 2vh;
+    font-size: 1.2em;
+    margin-top: 1.5em;
+    border-radius: 18px;
+    margin-bottom: 8vh;
+    margin-right: 2vh;
+    
+}
+.login-submit:hover,.login-signup:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.forgot{
+    margin-top: 0.5vh;
+    font-size: 1em;
+}
+.reset{
+
+    font-weight: 800;
+    text-decoration: none;
+}
+.login-pwd-seen{
+    position: relative;
+    bottom: 3.4vh;
+    left: 7vw;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}

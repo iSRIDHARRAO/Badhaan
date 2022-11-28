@@ -1,0 +1,36 @@
+.main-main-reset{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-reset{
+    background-color: rgb(255, 255, 255);
+    padding: 1vh 0vh 5vh 0vh;
+
+    border-radius: 20px;
+
+}
+.d1,.d2,.d3{
+    font-weight: 900;
+    font-size: 1.2em;
+    text-align: left;
+    position: relative;
+    left: 4vw;
+}
+
+.pwd-seen-change{
+    position: relative;
+    top: -3.5vh;
+    left: 7vw;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 500;
+}
+.cancel{
+    background-color: red;
+
+    color: white;
+}
+.cancel:hover{
+    background-color: rgb(231, 76, 76);
+}
